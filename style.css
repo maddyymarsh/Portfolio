@@ -1,0 +1,229 @@
+
+h1{
+    font-family: "carol-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#877292;
+   font-size:3vw;
+   margin: auto auto -20px auto;
+
+}
+
+h2 {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#ada2af;
+    text-align:left;
+    margin: auto;
+    font-size:1.3vw;
+}
+h3{
+    font-family: "carol-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#877292;
+    font-size: 2.5vw;
+}
+h4{
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        color:#ada2af;
+        text-align:center;
+        margin: auto auto auto auto;
+        font-size:2vw;
+}
+
+a {
+    text-decoration: none;
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        color:#ada2af;
+        text-align:center;
+        font-size:1vw;
+}
+
+body{
+    background-color: #08080B;
+}
+
+/*FOOTER*/
+#footer {
+    font-family: "minerva-modern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ada2af;
+    font-size: 12px;
+    background-color: #24221f;
+    height: 50px;
+   max-width: 100vw;
+    z-index: 1;
+   margin: 10px 0 0 0;
+    
+    /* Flexbox Alignment */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 10px; 
+}
+
+.footerLinks {
+    list-style: none;
+    display: flex; 
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footerLinks li {
+    display: inline-block;
+}
+
+.socialLogos img {
+    height: 45px; 
+    width: 45px;
+}
+
+#footer p {
+    margin: 0; 
+    text-align: right;
+}
+
+
+#sticky-parallax-header {
+    position: fixed;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-position: center;
+    background-image: url(imgs/marble\ texture.jpg);
+    font-family: "carol-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#877292;
+   margin: auto auto -100px auto;
+   text-align: center;
+   padding:0%;
+}
+#maddymarsh{
+    margin-bottom: -85px;
+}
+.navList{
+    margin-right: 20px;
+}
+
+#fixedHeader{
+    background-image: url("imgs/marble\ texture.jpg");
+    text-align: center;
+    margin:-10px;
+    height:10vh;
+}
+
+/*Project Grid Homepage*/
+#allProjects{
+    margin-top:-100px;
+}
+.imgProject{
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+    justify-content: center;
+    margin-top:80px;
+}
+.gridContainer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:80px;
+        grid-row-gap:80px;
+}
+.gridContainer img:hover{
+    transform: scale(1.05);
+ }
+ .filter {
+    filter: brightness(0.4);
+}
+
+/*ABOUT PAGE*/
+.aboutGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    place-items: center;
+}
+.aboutGrid img{
+    max-width:50vw;
+    max-height:50vh;
+    
+}
+.aboutGrid p {
+    font-family: "minerva-modern", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#ada2af;
+    font-size:1.2vw;
+}
+.aboutGridCol{
+   text-align: left;
+   vertical-align: text-top;
+}
+.aboutGrid p{
+    vertical-align: top;
+}
+#aboutSpace{
+    margin-top:350px;
+}
+/*CONTACT PAGE*/
+.contactGrid{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 25px;
+}
+.contactGridCol{
+    text-align: left;
+ }
+ .contactGrid p {
+    font-family: "minerva-modern", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#ada2af;
+    font-size:1.2vw;
+    margin: auto auto 0 20px;
+ }
+ .contactGrid h2{
+    text-align: left;
+    margin:80px auto 0 5px;
+ }
+ #contactLinks{
+    color:aliceblue;
+    text-decoration: underline;
+    margin: auto auto 0 20px;
+}
+
+
+/*PROJECTS PAGES*/
+.projectsGrid {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    margin:45px 25px;
+    grid-gap:25px;
+}
+
+.projectsGrid p {
+    font-family: "minerva-modern", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:#ada2af;
+    font-size:1.2vw;
+    text-align: left;
+    margin:0px auto 25px auto;
+}
+.projectsGrid img {
+    max-width:100vw;
+    max-height:100vh;
+}
+.projectsGridCol1{
+    display:grid;
+   place-items: center;
+}
